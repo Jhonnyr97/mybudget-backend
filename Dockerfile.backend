@@ -1,0 +1,6 @@
+FROM ruby 
+RUN gem install rails
+WORKDIR /mybuget-backend
+COPY Gemfile* /mybuget-backend/
+RUN bundle install
+
