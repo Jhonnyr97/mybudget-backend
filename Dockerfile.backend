@@ -1,6 +1,6 @@
 FROM ruby 
 RUN gem install rails
-WORKDIR /mybuget-backend
-COPY Gemfile* /mybuget-backend/
+WORKDIR /mybudget-backend
+COPY Gemfile* /mybudget-backend/
 RUN bundle install
 
