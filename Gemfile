@@ -46,3 +46,6 @@ group :development do
   # gem "spring"
 end
 
+gem 'jwt'
+gem 'rack-cors'
+gem 'bcrypt', '~> 3.1.7'

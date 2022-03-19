@@ -3,4 +3,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+	post "/login", to: "sessions#login"
+	post "/signin", to: "sessions#create"
+	get "user", to: "sessions#auto_login"
+
 end
